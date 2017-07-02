@@ -25,7 +25,7 @@ Call it a ftp client, an s3 viewer or a dropbox like web app, Nuage leverage you
 Credentials are stored in your browser in a http only cookie encrypted using aes-256-ctr and aren't persist in the server disk at all.
 The remember me feature rely on localstorage to store your credentials encrypted using aes-256-ctr.
 
-Note that on the ftp and sftp session: connections aren't destroy on every request but are reused and kill after 2 minutes to make it feels faster and avoid reconnecting everytime you want to list some files.
+Note that on the ftp and sftp session: connections aren't destroyed on every request but are reused and kill after 2 minutes to make it feels faster and avoid reconnecting everytime you want to list some files.
 
 
 * Install
